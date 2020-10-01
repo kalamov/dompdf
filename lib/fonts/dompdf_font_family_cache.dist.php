@@ -8,20 +8,26 @@ return array(
             'italic' => $distFontDir . 'Helvetica-Oblique',
             'bold_italic' => $distFontDir . 'Helvetica-BoldOblique'
         ),
-    'times' =>
-        array(
-            'normal' => $distFontDir . 'Times-Roman',
-            'bold' => $distFontDir . 'Times-Bold',
-            'italic' => $distFontDir . 'Times-Italic',
-            'bold_italic' => $distFontDir . 'Times-BoldItalic'
-        ),
-    'times-roman' =>
-        array(
-            'normal' => $distFontDir . 'Times-Roman',
-            'bold' => $distFontDir . 'Times-Bold',
-            'italic' => $distFontDir . 'Times-Italic',
-            'bold_italic' => $distFontDir . 'Times-BoldItalic'
-        ),
+	'arial' => 
+		array (
+            'normal' => $distFontDir . 'arial',
+            'bold' => $distFontDir . 'arial-Bold',
+            'italic' => $distFontDir . 'arial-Oblique',
+            'bold_italic' => $distFontDir . 'arial-BoldOblique'
+	  ),
+	'times' => 
+		array (
+			'normal' => $distFontDir . 'times',
+			'bold' => $distFontDir . 'timesbd',
+			'italic' => $distFontDir . 'timesi',
+			'bold_italic' => $distFontDir . 'timesbi'
+		),
+	'times-roman' => array (
+			'normal' => $distFontDir . 'times',
+			'bold' => $distFontDir . 'timesbd',
+			'italic' => $distFontDir . 'timesi',
+			'bold_italic' => $distFontDir . 'timesbi'
+		),
     'courier' =>
         array(
             'normal' => $distFontDir . 'Courier',
